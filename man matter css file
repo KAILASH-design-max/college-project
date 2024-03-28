@@ -1,1 +1,435 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+:root {
+    --green: #008000;
+    --black: #444;
+    --light-color: #777;
+    --box-shadow: 0.5rem 0.5rem 0 rgba(22, 160, 133, 0.2);
+    --text-shadow: 0.4rem 0.4rem 0 rgba(0, 0, 0, 0.2);
+    --border: 0.2rem solid var(--green);
+}
+
+body {
+    margin:2.6rem;
+    background: lightcyan;
+}
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    transition: all 0.2s ease-out;
+}
+body {
+    text-transform: capitalize;
+}
+
+html {
+    font-size: 20%;
+    overflow-x: hidden;
+    scroll-padding-top: 7rem;
+    scroll-behavior: smooth;
+}
+
+section {
+    padding: 2rem 10%;
+}
+
+section:nth-child(even) {
+    background: #f5f5f5;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 1.5rem;
+    border: var(--box-shadow);
+    border-radius: 5rem;
+    box-shadow: var(--box-shadow);
+    color: var(--green);
+    cursor: pointer;
+    font-size: 1.7rem;
+    background: #fff;
+}
+
+.btn span {
+    padding: 1rem;
+    border-radius: 5rem;
+    background: var(--green);
+    color: #fff;
+    margin-left: 1rem;
+}
+
+.btn:hover {
+    background: var(--green);
+    color: #fff;
+}
+
+.btn:hover span {
+    color: var(--green);
+    background: #fff;
+    margin-left: 1rem;
+}
+.header {
+    padding: 2rem 10%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #fff;
+}
+
+.header .logo {
+    font-size: 10rem;
+    color: var(--green);
+}
+
+.header .logo i {
+    color: var(--green);
+}
+
+.header .navbar a {
+    font-size: 8rem;
+    color: var(--light-color);
+    margin-left: 5rem;
+}
+
+.header .navbar a:hover {
+    color: var(--green);
+}
+
+#menu-btn {
+    font-size: 2.5rem;
+    border-radius: 0.5rem;
+    background: #eee;
+    color: var(--black);
+    padding: 1rem 1.5rem;
+    cursor: pointer;
+    display: none;
+}
+/* Style the home section */
+.home {
+    display: flex;
+    align-items: left;
+    justify-content: space-between;
+    padding: 4rem 10%;
+    background: #f5f5f5;
+    padding-top: 35px;
+}
+
+/* Style the image container */
+.home .image {
+    flex: 0;
+}
+
+/* Style the image inside the container */
+.home .image img {
+    width: 100%;
+    max-height: 100%;
+}
+
+/* Style the content container */
+.home .content1 {
+    flex: 1;
+    padding: 5rem;
+}
+
+/* Style the heading in the content */
+.home .content1 h3 {
+    font-size: 15px;
+    color: var(--black);
+    margin-bottom: 2rem;
+}
+
+/* Style the paragraph text in the content */
+.home .content1 p {
+    font-size: 5rem;
+    color: var(--light-color);
+    line-height: 1.5;
+    margin-bottom: 4rem;
+}
+
+/* Style the "learn more" button in the content */
+.home .content1 .btn {
+    display: inline-block;
+    margin-top:2rem;
+    padding: 2rem 4rem;
+    border: 0.2rem solid var(--green);
+    border-radius: 5rem;
+    box-shadow: 0.2rem 0.2rem 0 rgba(22, 160, 133, 0.2);
+    color: var(--green);
+    cursor: pointer;
+    font-size: 5rem;
+    background: #fff;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+/* Style the button hover state */
+.home .content1 .btn:hover {
+    background-color: var(--green);
+    color: #fff;
+}
+
+/* Style the right arrow icon in the button */
+.home .content1 .btn span {
+    margin-left: 1rem;
+}
+/* home section ends */
+.icons-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+/* Style individual icons containers */
+.icons {
+    text-align: center;
+    flex: 1;
+    border: 0px solid #008000;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+/* Style the icon itself (FontAwesome icons) */
+.icons i {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+/* Style the heading and paragraph text */
+.icons h3{
+    font-size: 15px;
+}
+.icons p {
+    margin:1px;
+    font-size: 12px;
+}
+/* service box container start*/
+.services {
+    padding:3rem 0;
+    text-align: center;
+    background-color: #f5f5f5;
+}
+.services h3{
+    font-size:20px;
+    text-align:left;
+    padding:12px;
+}
+/* Style individual boxes */
+.box {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0.2rem 0.2rem 0 rgba(22, 160, 133, 0.2);
+    border: 0.2rem solid var(--green);
+    padding: 5rem;
+    margin-bottom: 5rem;
+    text-align: left;
+}
+
+/* Style the icon in each box */
+.box i {
+    font-size: 0rem;
+    color: var(--green);
+}
+
+/* Style the heading in each box */
+.box h3 {
+    font-size: 7rem;
+    color: var(--black);
+    margin-top: -7rem;
+}
+
+/* Style the description text in each box */
+.box p {
+    font-size: 5rem;
+    color: var(--light-color);
+    line-height: 1.5;
+    margin-top: 1rem;
+}
+
+/* Style the "learn more" button in each box */
+.box .btn {
+    display: inline-block;
+    margin-top:2rem;
+    padding: 2rem 4rem;
+    border: 0.2rem solid var(--green);
+    border-radius: 5rem;
+    box-shadow: 0.2rem 0.2rem 0 rgba(22, 160, 133, 0.2);
+    color: var(--green);
+    cursor: pointer;
+    font-size: 5rem;
+    background: #fff;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+/* Style the button hover state */
+.box .btn:hover {
+    background-color: var(--green);
+    color: #fff;
+}
+
+/* Style the right arrow icon in the button */
+.box .btn span {
+    margin-left: 1rem;
+}
+/* services ends */
+
+/* about starts */
+.about{
+    padding:3rem 0;
+    text-align: center;
+    background-color: #f5f5f5;
+}
+.about h1{
+    font-size:30px;
+    text-align:left;
+    padding:45px;
+}   
+.about .row .image {
+    flex: 1.5rem;
+}
+.about .row .image img {
+    width: 100%;
+
+}
+.about .content h3 {
+    color: var(--black);
+    font-size: 6rem;
+    margin:20px;
+    text-align:left;
+}
+.content1 h3{
+    font-size:30px;
+    margin-top:-140px;
+    text-align:left;
+    padding:34px;
+    
+}
+.about .content p {
+    font-size: 5rem;
+    color: var(--light-color);
+    line-height:1.5;
+    margin-top: 1rem;
+}
+/* Style the buttons within the .content class */
+.content .btn {
+    display: inline-block;
+    margin-top:2rem;
+    padding: 2rem 4rem;
+    border: 0.2rem solid var(--green);
+    border-radius: 5rem;
+    box-shadow: 0.2rem 0.2rem 0 rgba(22, 160, 133, 0.2);
+    color: var(--green);
+    cursor: pointer;
+    font-size: 5rem;
+    background: #fff;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+/* Style the button hover state */
+.content .btn:hover {
+    background-color: var(--green);
+    color: #fff;
+}
+
+/* Style the right arrow icon in the button */
+.content .btn span {
+    margin-left: 1rem;
+}
+/* about content ends */
+
+/* Media queries */
+@media (max-width:991px) {
+    html {
+        font-size: 60%;
+    }
+
+    .header {
+        padding: 2rem;
+    }
+    section{
+        padding:rem ;
+    }
+}
+
+@media (max-width: 768px) {
+    #menu-btn {
+        display: initial;
+    }
+
+    .header .navbar {
+        position: absolute;
+        top: 115%;
+        right: 2rem;
+        border-radius: 0.5rem;
+        box-shadow: var(--box-shadow);
+        width: 30rem;
+        border: var(--border);
+        background: #fff;
+        transform: scale(0);
+        opacity: 0;
+        transform-origin: top right;
+        transition: none;
+    }
+
+    .header .navbar.active {
+        transform: scale(1);
+        opacity: 1;
+        transform-origin: top right;
+        transition: 2s ease-out ;
+
+    }
+
+    .header .navbar a {
+        font-size: 2rem;
+        display: block;
+        margin: 2.5rem;
+    }
+}
+
+@media (max-width: 450px) {
+    html {
+        font-size: 50%;
+    }
+}
+
+.home{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    padding-top: 10rem;
+}
+.home .image{
+    flex: 1 1.45rem;
+}
+.home .image img{
+    width: 100%;
+}
+.home .content{
+    flex: 1 1.145rem;
+}
+.home .content h3{
+    font-size: 4.5rem;
+    color: var(--black);
+    line-height: 1.8;
+    text-shadow: var(--text-shadow);
+}
+.home .content p{
+    font-size: 2.5rem;
+    color: var(--light-color);
+    line-height: 1.8;
+    padding: 1rem 0;
+}
 
