@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CIA WEB TEACH</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <!-- link to css -->
+    <link rel="stylesheet" href="cia.css">
+</head>
+
+<body>
+    <header class="header">
+        <a href="#" class="logo">
+            <li class="">Men Matter</li>
+        </a>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Navbar</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Dropdown
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+    <!-- header section ends -->
+    <!-- home section starts 
+    <section class="home" id="home">
+       <div class="image"> 
+        </div> 
+        <div class="content1"> 
+            <h3># HowtoTalkWithMen Campaign</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos odio, fugiat quidem, error minima 
+                repudiandae odit dolorum similique explicabo molestiae, nihil blanditiis aperiam nulla sapiente porro
+                aliquam sequi! Dolorum, magni!</p>
+                <a href="#" class="btn">learn more<span class="fas fa-chevron-right"></span></a>
+        </div> -->
+    </section>
+    <!-- home section ends -->
+
+    <section class="about" id="home">
+        <h1 class="heading">Men<span> Matter </span></h1>
+        <div class="row">
+
+            <div class="image">
+                <img src="C:\Users\kaila\OneDrive\Documents\1-1044x645.jpg" alt="">
+            </div>
+
+            <div class="content1">
+                <h3># HowtoTalkWithMen Campaign</h3>
+
+
+            <div class="content">
+                <h3>Men Matter Story</h3>
+                <p>"Girls and boys see gender inequality in their homes and communities every day – in textbooks, in the media and among the adults who care for them.
+
+                    Parents may assume unequal responsibility for household work, with mothers bearing the brunt of caregiving and chores. The majority of low-skilled and underpaid community health workers who attend to children are also women, with limited opportunity for professional growth.
+                    
+                    And in schools, many girls receive less support than boys to pursue the studies they choose. This happens for a variety of reasons: The safety, hygiene and sanitation needs of girls may be neglected, barring them from regularly attending class. Discriminatory teaching practices and education materials also produce gender gaps in learning and skills development. As a result, nearly 1 in 4 girls between the ages of 15 and 19 are neither employed nor in education or training – compared to 1 in 10 boys."</p>
+                <a href="#" class="btn">Learn more<span class="fas fa-chevron-right"></span></a>
+
+
+            </div>
+        </div>
+    </section>
+    <!-- icons section starts -->
+    <section class="icons-container">
+        <div class="icons">
+            <img src="C:\Users\kaila\OneDrive\Documents\2 (3)_0.png" alt="">
+            <h3>Men’s Dialogues As A Tool In The Fight Against GBV And HIV In Lesotho</h3>
+            <p>In the beginning of 2023 two organizations partnered with male leaders in Lesotho to initiate men’s dialogues to discuss and find solutions to the factors that drive violence against women and girls and HIV infections in the Southern African nation. 
+ 
+                UN Women South Africa Multi-Country Office, enabled by funds from UNAIDS Unified Budget, Results and Accountability Framework (UBRAF), supported women’s rights organization Gem Institute Lesotho and the Christian Council of Lesotho (CCL).  
+                
+                </p>
+        </div>
+        <div class="icons">
+            <img src="C:\Users\kaila\OneDrive\Documents\HeForShe Wrapped 2023.jpg" alt="">
+            <h3>HeForShe Wrapped 2023</h3>
+            <p>2023 has been a pivotal year for HeForShe, marking significant strides in the global movement for gender equality. In the face of pushback against women’s rights and intersecting challenges from climate change to anti-gender movements, HeForShe has continued to build a solidarity movement of men and boys who stand alongside women and girls in all their diversity in the pursuit of a better, gender equal world for everyone. As we embark on a new year with renewed commitment, let's reflect on the milestones achieved by HeForShe throughout 2023.</p>
+        </div>
+        <div class="icons">
+            <img src="C:\Users\kaila\OneDrive\Documents\2 (3).png" alt="">
+            <h3>HeForShe Leading The Charge: A Recap Of COP28 Activities</h3>
+            <p>The HeForShe Alliance took center stage at COP28, strategically engaging in a mission to propel gender-responsive climate action to the forefront. The vision: to ensure that the rights and interests of women and girls, in all their diversity, become integral to every facet of climate initiatives deliberated and implemented. </p>
+        </div>
+    </section>
+    <!-- icons section ends-->
+
+    <!-- section start for services -->
+    <section class="services" id="services1">
+    <h3 class="heading">About</h3>
+    <div class="box-contentainer">
+        <div class="box">
+            <h3>Education</h3>
+            <p><b> Rates: </b>In some regions, gender disparities in education can be reflected in varying enrollment rates between boys and girls. Socioeconomic factors, cultural norms, and accessibility contribute to these differences.
+                Dropout Rates: Boys may experience higher dropout rates, influenced by factors such as academic performance, socio-economic conditions, and societal expectations regarding gender roles.
+                Access to Higher Education: While strides have been made globally, access to higher education may still be influenced by gender biases, limiting certain fields of study for men or women.</p>
+            <a href="#" class="btn">learn more<span class="fas fa-chevron-right"></span></a>
+        </div>
+        <div class="box">
+            <h3>Health</h3>
+            <p><b>Heart Disease:</b> Men tend to face higher rates of heart disease, often associated with lifestyle factors, including diet, exercise, and stress.
+                Suicide Rates: Men are more likely to die by suicide, which can be influenced by societal expectations around emotional expression, mental health stigma, and reluctance to seek help.
+                Workplace-Related Injuries: Occupations traditionally dominated by men, such as construction or manufacturing, may expose them to higher rates of workplace injuries.</p>
+            <a href="#" class="btn">learn more<span class="fas fa-chevron-right"></span></a>
+        </div>
+        <div class="box">
+            <h3>Workplace</h3>
+            <p><b>Disparities in Pay:</b>The gender pay gap persists, with men, on average, earning more than women. Factors include occupational segregation, negotiation patterns, and biases in promotion.
+                Representation in Leadership: Men are often overrepresented in leadership roles across various industries, contributing to a lack of diversity and potential for perpetuating gender inequalities.
+                Occupational Stereotypes: Societal expectations and stereotypes may guide men into certain professions and discourage them from pursuing careers perceived as non-traditional for their gender.</p>
+            <a href="#" class="btn">learn more<span class="fas fa-chevron-right"></span></a>
+        </div>
+        <div class="box">
+            <h3>Fatherhood and Parental Leave:</h3>
+            <p><b>Expectations:</b> Expectations surrounding masculinity may influence societal views on men taking parental leave or actively participating in caregiving. These expectations can impact work-life balance for fathers.
+            </p>
+            <a href="#" class="btn">learn more<span class="fas fa-chevron-right"></span></a>
+        </div>
+        <div class="box">
+            <h3>Legal and Criminal Justice</h3>
+            <p><b> Incarceration Rates:</b> Men face higher rates of incarceration, often influenced by factors like systemic biases, sentencing policies, and socioeconomic conditions.</p>
+            <a href="#" class="btn">learn more<span class="fas fa-chevron-right"></span></a>
+        </div>
+        <div class="box">
+            <h3>Mental Health</h3>
+            <p><b>Stigma and Help-Seeking Behavior:</b> Societal expectations around masculinity may discourage men from openly discussing mental health issues or seeking professional help. This can lead to underreporting and untreated mental health conditions.</p>  
+            <a href="#" class="btn">learn more<span class="fas fa-chevron-right"></span></a>
+        </div>
+
+    </div>
+</section>
+</body>
+
+</html>
